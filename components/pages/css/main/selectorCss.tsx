@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { cssJsonData } from '@/data/moc/css';
 
 const DivContainerSelector = styled.div`
 
 background-color: white;
 width: 20vw;
-height: 70vh;
+height: 80vh;
 overflow: scroll;
 overflow-x: hidden;
 
@@ -27,19 +28,19 @@ cursor: pointer;
 
 
 export default function SelectorCss(props: any){
+    console.log(cssJsonData);
     return (
         <DivContainerSelector>
-            {['Introducción','Sintaxis','Selectores','¿Cómo se hace?','Comentarios','Colores','Fondo','Bordes','Márgenes','Padding','Alto/Ancho','Box Model','Contorno','Texto','Fuentes','Iconos','Enlaces','Tablas','Display','Max-Width','Posición','Z-Index','Overflow','Float'].map(
-                (e:number , i: number) => 
+            {cssJsonData.map(
+                (e:any , i: number) => 
                     {return(<DivSelecto
                         key={i}
                     onClick= {() => {
-                        props.setContenidoPresente(i);
+                        props.setContenidoPresente(cssJsonData.indexOf(e));
                     }}
-                    selected={props.contenidoPresente === i ? 
-                        true : false}
+                    selected={props.contenidoPresente === i ? true : false}
                     >
-                    {e}
+                    {e ?.titulo}
                     </DivSelecto>
             );
         }

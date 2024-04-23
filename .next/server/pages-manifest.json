@@ -3,10 +3,11 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/CSS": "pages/CSS.js",
-  "/JS": "pages/JS.js",
   "/HTML": "pages/HTML.js",
-  "/Angular": "pages/Angular.js",
-  "/React": "pages/React.js",
-  "/TS": "pages/TS.js",
-  "/": "pages/index.js"
+  "/HTML/Encabezados": "pages/HTML/Encabezados.js",
+  "/JS": "pages/JS.js",
+  "/": "pages/index.js",
+  "/React/Componentes": "pages/React/Componentes.js",
+  "/HTML/Listas": "pages/HTML/Listas.js",
+  "/HTML/Formularios": "pages/HTML/Formularios.js"
 }
