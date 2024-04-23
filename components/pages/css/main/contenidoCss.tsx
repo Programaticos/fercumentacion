@@ -28,7 +28,7 @@ padding: 20px;
 color: #48744C;
 border-radius: 8px;
 margin-top: 2;
-height: 220px;
+height: 375px;
 top: -2px;
 font-family: 'Poppins', sans-serif;
 
@@ -38,7 +38,7 @@ font-family: 'Poppins', sans-serif;
 export default function ContenidoCss(props: any){
     return (
         <DivContainerContenido>
-            <TituloH2>{props.contenidoPresente} . -TITULO
+            <TituloH2>{props.contenidoPresente}
             </TituloH2>
             <DivDescriptionContainer>
             

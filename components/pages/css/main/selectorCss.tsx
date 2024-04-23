@@ -29,7 +29,7 @@ cursor: pointer;
 export default function SelectorCss(props: any){
     return (
         <DivContainerSelector>
-            {[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30].map(
+            {['Introducción','Sintaxis','Selectores','¿Cómo se hace?','Comentarios','Colores','Fondo','Bordes','Márgenes','Padding','Alto/Ancho','Box Model','Contorno','Texto','Fuentes','Iconos','Enlaces','Tablas','Display','Max-Width','Posición','Z-Index','Overflow','Float'].map(
                 (e:number , i: number) => 
                     {return(<DivSelecto
                         key={i}
@@ -39,7 +39,7 @@ export default function SelectorCss(props: any){
                     selected={props.contenidoPresente === i ? 
                         true : false}
                     >
-                    {e}. Hola 
+                    {e}
                     </DivSelecto>
             );
         }

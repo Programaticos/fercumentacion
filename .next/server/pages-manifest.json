@@ -2,6 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/CSS": "pages/CSS.js"
+  "/CSS": "pages/CSS.js",
+  "/JS": "pages/JS.js",
+  "/HTML": "pages/HTML.js",
+  "/Angular": "pages/Angular.js",
+  "/React": "pages/React.js",
+  "/TS": "pages/TS.js",
+  "/": "pages/index.js"
 }
