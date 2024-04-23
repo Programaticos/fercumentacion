@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { cssJsonData } from '@/data/moc/css';
+import BotonEjemplo from './botonejemplo';
 const DivContainerContenido = styled.div`
 background-color:  white;
 width: 80vw;
@@ -22,6 +23,8 @@ font-family: 'Poppins', sans-serif;
 `;
 
 const DivDescriptionContainer = styled.div`
+display: flex;
+flex-direction: column;
 margin: 48px;
 background-color: #C9E265;
 padding: 20px;
@@ -33,6 +36,20 @@ top: -2px;
 font-family: 'Poppins', sans-serif;
 
 `;
+const DivButton = styled.div`
+display: flex;
+justify-content: space-around;
+`;
+
+const Button = styled.button`
+display: flex;
+background-color: #48744C;
+color: #C9E265;
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+border-radius: 8px;
+cursor: pointer;
+`;
 
 
 export default function ContenidoCss(props: any){
@@ -43,7 +60,20 @@ export default function ContenidoCss(props: any){
             <DivDescriptionContainer>
             <p>
             {cssJsonData[props.contenidoPresente]?.descripcion}
+            <br />
+            <br />
+            Ejemplos:
+            
             </p>
+                <DivButton>
+                    
+                {cssJsonData[props.contenidoPresente]?.ejemplos?.map(
+                    (ejemplo: any, i: number) => {
+                    return <Button key={i}>{ejemplo?.titulo}</Button>
+                }
+                )}
+                </DivButton>
+            
             </DivDescriptionContainer>
         </DivContainerContenido>
     )

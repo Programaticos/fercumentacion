@@ -2,12 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/CSS": "pages/CSS.js",
-  "/HTML": "pages/HTML.js",
-  "/HTML/Encabezados": "pages/HTML/Encabezados.js",
+  "/Angular": "pages/Angular.js",
   "/JS": "pages/JS.js",
-  "/": "pages/index.js",
-  "/React/Componentes": "pages/React/Componentes.js",
-  "/HTML/Listas": "pages/HTML/Listas.js",
-  "/HTML/Formularios": "pages/HTML/Formularios.js"
+  "/CSS": "pages/CSS.js"
 }

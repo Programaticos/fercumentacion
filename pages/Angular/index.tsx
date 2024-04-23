@@ -4,6 +4,7 @@ import Barranav from "../../components/layout/header/barranav";
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -18,6 +19,8 @@ export default function Home() {
       <header>
       <Barranav />
       </header>
+      <main>
+      </main>
     </>
   );
 }
