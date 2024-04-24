@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/CSS": "pages/CSS.js",
   "/": "pages/index.js",
-  "/HTML": "pages/HTML.js",
+  "/Angular": "pages/Angular.js",
+  "/CSS": "pages/CSS.js",
   "/JS": "pages/JS.js"
 }

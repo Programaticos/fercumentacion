@@ -2,6 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Barranav from "../components/layout/header/barranav";
 import Contador from "@/components/pages/home/footer/contador";
+import MainContainerHome from "@/components/pages/home/main/maincontainerHome";
+import styled from "styled-components";
+const MainStyles = styled.main`
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+`;
+
+
 export default function Home() {
   return (
     <>
@@ -18,6 +27,9 @@ export default function Home() {
     <Barranav />
     </header>
     <main>
+    <MainStyles>
+        <MainContainerHome />
+      </MainStyles>
     </main>
     
     <footer>

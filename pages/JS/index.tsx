@@ -1,6 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import Barranav from "../../components/layout/header/barranav";
+import styled from "styled-components";
+import MainContainerJs from "@/components/pages/javascript/main/maincontainerJs";
+
+
+const MainStyles = styled.main`
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+`;
+
 
 
 
@@ -18,6 +28,10 @@ export default function Home() {
       <header>
       <Barranav />
       </header>
+      <MainStyles>
+        <MainContainerJs />
+      </MainStyles>
+
     </>
   );
 }

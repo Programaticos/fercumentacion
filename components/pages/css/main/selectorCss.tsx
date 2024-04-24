@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { cssJsonData } from '@/data/moc/css';
 
 const DivContainerSelector = styled.div`
-
 background-color: white;
 width: 20vw;
 height: 80vh;
@@ -12,9 +11,9 @@ overflow-x: hidden;
 `;
 
 const DivSelecto = styled.div<{selected : boolean}>`
-background-color: #C9E265;
-${(props) => props.selected && "background-color : #48744C;"}
-${(props) => props.selected && "color:#C9E265;"}
+background-color: #3BA1DB;
+${(props) => props.selected && "background-color : #2162AF;"}
+${(props) => props.selected && "color:#3BA1DB;"}
 margin: 5px;   
 font-family: 'Poppins', sans-serif, bold;
 border-radius: 3px;

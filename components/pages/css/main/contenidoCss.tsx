@@ -11,13 +11,13 @@ const TituloH2 = styled.h2`
 margin: 5px;
 bottom: 32px;
 margin-bottom: 0;
-background-color: #C9E265;
+background-color: #3BA1DB;
 height: 100px;
 border-radius: 8px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: #48744C;
+color: #2162AF;
 font-size: 54px;
 font-family: 'Poppins', sans-serif;
 `;
@@ -26,9 +26,9 @@ const DivDescriptionContainer = styled.div`
 display: flex;
 flex-direction: column;
 margin: 48px;
-background-color: #C9E265;
+background-color: #3BA1DB;
 padding: 20px;
-color: #48744C;
+color: #2162AF;
 border-radius: 8px;
 margin-top: 2;
 height: 80%;
