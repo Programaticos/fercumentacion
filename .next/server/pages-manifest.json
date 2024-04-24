@@ -3,8 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/CSS": "pages/CSS.js",
-  "/React/Componentes": "pages/React/Componentes.js",
   "/": "pages/index.js",
-  "/Angular": "pages/Angular.js",
+  "/HTML": "pages/HTML.js",
   "/JS": "pages/JS.js"
 }

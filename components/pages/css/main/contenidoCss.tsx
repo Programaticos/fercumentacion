@@ -38,6 +38,7 @@ font-family: 'Poppins', sans-serif;
 `;
 const DivButton = styled.div`
 display: flex;
+flex-direction: row;
 justify-content: space-around;
 `;
 
