@@ -41,15 +41,6 @@ display: flex;
 justify-content: space-around;
 `;
 
-const Button = styled.button`
-display: flex;
-background-color: #48744C;
-color: #C9E265;
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-border-radius: 8px;
-cursor: pointer;
-`;
 
 
 export default function ContenidoCss(props: any){
@@ -58,18 +49,17 @@ export default function ContenidoCss(props: any){
             <TituloH2>{cssJsonData[props.contenidoPresente]?.titulo}
             </TituloH2>
             <DivDescriptionContainer>
-            <p>
+            <div>
             {cssJsonData[props.contenidoPresente]?.descripcion}
-            <br />
-            <br />
+            <br/>
+            <br/>
             Ejemplos:
-            
-            </p>
+            </div>
                 <DivButton>
                     
                 {cssJsonData[props.contenidoPresente]?.ejemplos?.map(
                     (ejemplo: any, i: number) => {
-                    return <Button key={i}>{ejemplo?.titulo}</Button>
+                    return <BotonEjemplo ejemplo={ejemplo} key={i}/>
                 }
                 )}
                 </DivButton>

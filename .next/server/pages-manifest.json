@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/CSS": "pages/CSS.js",
+  "/React/Componentes": "pages/React/Componentes.js",
+  "/": "pages/index.js",
   "/Angular": "pages/Angular.js",
-  "/JS": "pages/JS.js",
-  "/CSS": "pages/CSS.js"
+  "/JS": "pages/JS.js"
 }
